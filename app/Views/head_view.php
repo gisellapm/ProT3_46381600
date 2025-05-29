@@ -8,7 +8,4 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 
-<header>
-    <h1>Bienvenido</h1>
-</header>
 <body>
