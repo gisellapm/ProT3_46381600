@@ -1,4 +1,4 @@
-<section class="container-fluid p-3">
+<section class="main-content container-fluid p-3">
     <div class="row">
         <div class="card-group ">
             <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">

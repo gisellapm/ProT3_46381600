@@ -1,4 +1,4 @@
-<section class="container-fluid d-flex justify-content-center p-5">
+<section class="main-content container-fluid d-flex justify-content-center p-5">
     <div class="col-6 p-2 m-2 bg-secondary rounded-3 border border-4 border-secondary-subtle" style="width:40%;">
         <h2 class="text-center p-2">Login</h2>
         <form>
