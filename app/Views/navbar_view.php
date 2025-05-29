@@ -5,29 +5,33 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href='principal_view'>
-                        <img src="/bootstrap/images/logo2.png" alt="Logo" width="30" height="30"
-                            class="d-inline-block align-text-top">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href='principal_view'>Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href='quienes_somos'>Quienes somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href='acerca_de'>Acerca de</a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href='registro'>Registro</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href='login'>Login</a>
-                </li>
-            </ul>
+            <div class="d-flex w-100 align-items-center">
+                <!-- Sección izquierda: Nombre -->
+                <div class="flex-shrink-0">
+                    <h2 class="mb-0" style="font-size:1.5rem;">GiaM Showroom</h2>
+                </div>
+                <!-- Sección centro: Menú principal -->
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href='principal_view'>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='contacto'>Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='acerca_de'>Acerca de</a> 
+                    </li>
+                </ul>
+                <!-- Sección derecha: Login y Registro -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href='registro'>Registro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='login'>Login</a>
+                    </li>  
+                </ul>
+            </div>
         </div>
     </div>
 </nav>

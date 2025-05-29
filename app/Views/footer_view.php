@@ -1,4 +1,4 @@
-<footer class="container-fluid p-3 justify-content-between d-flex bg-secondary">
+<footer class="container-fluid p-3 justify-content-between d-flex bg-secondary fixed-bottom">
     <nav class="">
         <a href="">Email</a>
         <a href="">Linkedin</a>
@@ -11,4 +11,6 @@
     </nav>
 </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 </body>

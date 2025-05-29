@@ -1,36 +1,55 @@
-<section id="contacto" class="container-fluid d-flex justify-content-center p-5">
-    <div class="col-6 p-2 m-2 bg-secondary rounded-3 border border-4 border-secondary-subtle" style="width:40%;">
-        <h2 class="text-center p-2">Contacto</h2>
-        <div class="input-group p-3">
-                <input type="text" class="form-control" placeholder="Usuario" aria-label="Username">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" placeholder="Dirección" aria-label="Server">
-        </div>
-        <div class="input-group p-3">
-                <span class="input-group-text">Mensaje</span>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
-        </div>
-        <div class="form-floating p-3">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                <option selected>País</option>
-                <option value="1">Argentina</option>
-                <option value="2">Chile</option>
-                <option value="3">Uruguay</option>
-                <option value="4">Paraguay</option>
-                <option value="5">Brasil</option>
-            </select>
-        </div>
-
-        <button type="button" class="btn btn-light p-1 w-auto d-flex mx-auto">Enviar</button>
-        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                    <img src="..." class="rounded me-2" alt="...">
-                    <strong class="me-auto">Mensaje enviado</strong>
-                    <small>11 mins ago</small>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+<section class="container-fluid p-3">
+    <div class="row">
+        <div class="card-group ">
+            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
+                <img src="/bootstrap/images/flor2.jpg" class="card-img-top p-2 rounded-4">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Gerardo</h5>
+                    <p class="card-text">Actualmente vivo en la ciudad capital de Corrientes pero tengo mucha
+                        relación con Chaco puesto que realizo mis estudios
+                        en la ciudad de Resistencia.</p>
+                    <p class="card-text mt-auto">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </p>
+                </div>
             </div>
-            <div class="toast-body">
-                    El mensaje fue enviado correctamente. Gracias por contactarnos.
+            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
+                <img src="/bootstrap/images/flor3.jpg" class="card-img-top p-2 rounded-4">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Analía</h5>
+                    <p class="card-text">Me encuentro transitando el 3er año de Ingeniería en Sistemas de
+                        Información, en la Universidad Tecnológica Nacional
+                        Facultad Regional Resistencia.</p>
+                    <p class="card-text mt-auto">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
+                <img src="/bootstrap/images/flor4.jpg" class="card-img-top p-2 rounded-4">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">María</h5>
+                    <p class="card-text">Me encanta la música, soy participante de la Orquesta Filarmónica
+                        Estudiantil de Corrientes, y también estudio de forma
+                        particular guitarra y violín.
+                    </p>
+                    <p class="card-text mt-auto">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
+                <img src="/bootstrap/images/flor5.jpg" class="card-img-top p-2 rounded-4">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Griselda</h5>
+                    <p class="card-text">Planeo seguir aprendiendo programación web para continuar avanzando en este
+                        ámbito y mejorar mi habilidades para avanzar
+                        a la par con la carrera que estudio.
+                    </p>
+                    <p class="card-text mt-auto">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
