@@ -1,5 +1,5 @@
-<section class="main-content container-fluid d-flex justify-content-center p-5">
-    <div class="col-6 p-2 m-2 bg-secondary rounded-3 border border-4 border-secondary-subtle" style="width:40%;">
+<section class="main-content container-fluid d-flex justify-content-center align-items-center p-3" style="min-height: 70vh;">
+    <div class="col-12 col-sm-10 col-md-8 col-lg-4 p-3 p-sm-4 p-md-5 m-2 bg-secondary rounded-3 border border-4 border-secondary-subtle">
         <h2 class="text-center p-2">Registro</h2>
         <form>
             <div class="mb-3">

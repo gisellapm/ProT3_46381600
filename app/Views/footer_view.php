@@ -1,5 +1,6 @@
 <footer class="container-fluid p-3 justify-content-between d-flex bg-secondary">
     <nav class="">
+    <img src="assets/img/footer/logo.png" width="30" height="30" class="d-inline-block rounded-circle align-text-top">
         <a href="">Email</a>
         <a href="">Linkedin</a>
         <a href="">Github</a>

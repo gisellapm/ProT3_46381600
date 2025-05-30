@@ -1,56 +1,14 @@
-<section class="main-content container-fluid p-3">
-    <div class="row">
-        <div class="card-group ">
-            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
-                <img src="/bootstrap/images/flor2.jpg" class="card-img-top p-2 rounded-4">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Gerardo</h5>
-                    <p class="card-text">Actualmente vivo en la ciudad capital de Corrientes pero tengo mucha
-                        relación con Chaco puesto que realizo mis estudios
-                        en la ciudad de Resistencia.</p>
-                    <p class="card-text mt-auto">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </p>
-                </div>
-            </div>
-            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
-                <img src="/bootstrap/images/flor3.jpg" class="card-img-top p-2 rounded-4">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Analía</h5>
-                    <p class="card-text">Me encuentro transitando el 3er año de Ingeniería en Sistemas de
-                        Información, en la Universidad Tecnológica Nacional
-                        Facultad Regional Resistencia.</p>
-                    <p class="card-text mt-auto">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </p>
-                </div>
-            </div>
-            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
-                <img src="/bootstrap/images/flor4.jpg" class="card-img-top p-2 rounded-4">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">María</h5>
-                    <p class="card-text">Me encanta la música, soy participante de la Orquesta Filarmónica
-                        Estudiantil de Corrientes, y también estudio de forma
-                        particular guitarra y violín.
-                    </p>
-                    <p class="card-text mt-auto">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </p>
-                </div>
-            </div>
-            <div class="card m-3 rounded-3 shadow p-3 bg-body-secondary">
-                <img src="/bootstrap/images/flor5.jpg" class="card-img-top p-2 rounded-4">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Griselda</h5>
-                    <p class="card-text">Planeo seguir aprendiendo programación web para continuar avanzando en este
-                        ámbito y mejorar mi habilidades para avanzar
-                        a la par con la carrera que estudio.
-                    </p>
-                    <p class="card-text mt-auto">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </p>
-                </div>
-            </div>
+    <section id="contacto" class="container-fluid d-flex justify-content-center p-5">
+        <div class="col-6 ">
         </div>
-    </div>
-</section>
+        <div class="col-6 container my-5">
+            <h2 class="text-center mb-4">Ubicación de la tienda</h2>
+            <div class="ratio ratio-16x9">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221.23716925352073!2d-58.838958023897256!3d-27.475649898101626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456c984780a2f5%3A0xfc8d7ed6582888cb!2sPam%20Style!5e0!3m2!1ses-419!2sar!4v1748571275979!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    loading="lazy"
+                    class="border rounded shadow"
+                ></iframe>
+            </div>
+        </div> 
+    </section>
