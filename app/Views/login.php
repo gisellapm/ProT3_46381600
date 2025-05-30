@@ -3,19 +3,27 @@
         <h2 class="text-center p-2">Login</h2>
         <form>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Correo</span>
+                    <input type="text" class="form-control" aria-label="Correo" aria-describedby="inputGroup-sizing-default">
+                </div>
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
+                    <input type="password" class="form-control" aria-label="Contraseña" aria-describedby="inputGroup-sizing-default">
+                </div>
             </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="mb-3 form-check d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <input type="checkbox" class="form-check-input me-2" id="exampleCheck1">
+                    <label class="form-check-label mb-0" for="exampleCheck1">Recordarme</label>
+                </div>
+                <div>
+                    <p class="mb-0 ms-3">¿Todavía no te registraste? <a href="registro">Regístrate</a></p>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
         </form> 
     </div>
 </section>
