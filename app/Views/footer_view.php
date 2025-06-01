@@ -10,9 +10,9 @@
     </nav>
         <!-- Redes Sociales -->
     <nav class="d-flex align-items-center gap-3">
-        <img src="assets/img/whatsapp.png" width="30" height="30" class="d-inline-block align-text-top">
-        <img src="assets/img/instagram.png" width="30" height="30" class="d-inline-block align-text-top">
-        <img src="assets/img/facebook.png" width="30" height="30" class="d-inline-block align-text-top">
+        <img src="assets/img/footer/whatsapp.png" width="30" height="30" class="d-inline-block align-text-top">
+        <img src="assets/img/footer/instagram.png" width="30" height="30" class="d-inline-block align-text-top">
+        <img src="assets/img/footer/facebook.png" width="30" height="30" class="d-inline-block align-text-top">
     </nav>
 </footer>
 
