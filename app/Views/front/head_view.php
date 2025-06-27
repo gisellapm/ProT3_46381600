@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProT2_46381600</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title><?php echo ($titulo); ?></title>
+
+    <link href="<?php echo base_url('assets/css/style.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet">
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">

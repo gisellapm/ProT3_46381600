@@ -6,41 +6,46 @@ class Home extends BaseController
 {
     public function principal()
     {
-        echo view('head_view');
-        echo view('navbar_view');
-        echo view('principal_view');
-        echo view('footer_view');
+        $data['titulo']='principal';
+        echo view('front/head_view',$data);
+        echo view('front/navbar_view');
+        echo view('front/principal_view');
+        echo view('front/footer_view');
     }
 
     public function sobre_nosotros()
     {
-        echo view('head_view');
-        echo view('navbar_view');
-        echo view('sobre_nosotros');
-        echo view('footer_view');
+        $data['titulo']='sobre nosotros';
+        echo view('front/head_view',$data);
+        echo view('front/navbar_view');
+        echo view('front/sobre_nosotros');
+        echo view('front/footer_view');
     }
 
     public function acerca_de()
     {
-        echo view('head_view');
-        echo view('navbar_view');
-        echo view('acerca_de');
-        echo view('footer_view');
+        $data['titulo']='acerca de';
+        echo view('front/head_view',$data);
+        echo view('front/navbar_view');
+        echo view('front/acerca_de');
+        echo view('front/footer_view');
     }
-    
+
     public function registro()
     {
-        echo view('head_view');
-        echo view('navbar_view');
-        echo view('registro');
-        echo view('footer_view');
+        $data['titulo']='registro';
+        echo view('front/head_view',$data);
+        echo view('front/navbar_view');
+        echo view('back/usuario/registro');
+        echo view('front/footer_view');
     }
 
     public function login()
     {
-        echo view('head_view');
-        echo view('navbar_view');
-        echo view('login');
-        echo view('footer_view');
+        $data['titulo']='login';
+        echo view('front/head_view',$data);
+        echo view('front/navbar_view');
+        echo view('back/usuario/login');
+        echo view('front/footer_view');
     }
 }

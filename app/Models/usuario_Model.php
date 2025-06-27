@@ -7,3 +7,4 @@ class usuario_Model extends Model
     protected $table = 'usuarios';
     protected $primaryKey = 'id_usuario';
     protected $allowedFields = ['id_usuario', 'nombre', 'apellido', 'usuario', 'email', 'pass', 'perfil_id', 'baja', 'created_at';
+}
